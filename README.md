@@ -1,0 +1,5 @@
+# plex_updater
+
+A script to update a Plex server. Currently, it only works on Debian Linux and presumably its derivatives. Originally intended to let me update Plex on my Raspberry Pi easily, though it should still work on x84_64 architectures, too. However, it should be noted that the operating system and cpu architecture detection is not very robust, so use at your own risk. It should work just fine with 32 and 64 bit Raspbian, however.
+
+I don't maintain this project very much, but I've still been making small adjustments over time as I need them. Someday, I'll probably completely rewrite this to work much better. At the very least, I think the installation and checksum system is fairly robust for Debian. If it does try to install the wrong version, it'll just fail and shouldn't cause any problems. Hopefully Plex doesn't change their API anytime soon to have something other than Debian as their first Linux distro...
